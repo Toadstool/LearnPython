@@ -1,3 +1,3 @@
 ﻿# LearnPython
  
-##libs: mumpy, matplotlib, pandas
+Libs: mumpy, matplotlib, pandas
