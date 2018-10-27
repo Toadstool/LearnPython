@@ -7,7 +7,7 @@ def waga(l,w,p,wyn):
    if w<0: return False
    if(p==len(l)): return False
    
-   return  waga(l,w,p+1,wyn) or waga(l,w-l[p],p+1,wyn + [l[p]]) or waga(l,w+l[p],p+1,wyn + [l[p]])
+   return  waga(l,w,p+1,wyn) or waga(l,w-l[p],p+1,wyn + [l[p]]) or waga(l,w+l[p],p+1,wyn + [-l[p]])
    
    
 
