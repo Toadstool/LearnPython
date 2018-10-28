@@ -68,7 +68,9 @@ def ruch(t,lp,n):
 # end def
 
 
-d=wczytaj("dane.txt")
+d=wczytaj("d:/sandbox/Python/Lab2/dane.txt")
+#d=wczytaj("dane.txt")
+#print(d)
 ruch(d,puste(d),0)
 
 
