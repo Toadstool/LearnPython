@@ -1,3 +1,3 @@
-﻿# LearnPython
+# LearnPython
  
 Libs: numpy, matplotlib, pandas
